@@ -15,16 +15,17 @@ let age = 31;
 
 // create a variable called "onlyChild" that references a boolean
 
-let 
+let onlyChild = false;
 
 // create a variable called "satisfied" that references a boolean
 
-My status is satisfied; false;
+satisfied = false;
 
 // create a variable called "favoriteThing" that references ANY primitive value
 // print the data type of "favoriteThing"
 
 let favoriteThing = "Activity";
+console.log(typeof favortiteThing);
 
 // You heard a new song that became your favorite.
 // Reassign the variable "favoriteSong"
@@ -34,6 +35,7 @@ favoriteSong = "Under The Mountain";
 // Reassign "favoriteThing" to a different primitive data type and print its type
 
 favoriteThing = "Kicking Back";
+console.log(typeof favoriteThing);
 
 // Happy Birthday!
 // Reassign "age" to a new value
@@ -47,5 +49,7 @@ wage = 120;
 
 // Your raise changed your job satisfaction.
 // Assign "satisfied" to true
+satisfied = true;
 
 // use "console.log()" and "+" to print a sentence that includes two of the above variables
+console.log("I am " + age + "years old and I still like" favoriteSong) ;
