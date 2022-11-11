@@ -52,4 +52,4 @@ wage = 120;
 satisfied = true;
 
 // use "console.log()" and "+" to print a sentence that includes two of the above variables
-console.log("I am " + age + "years old and I still like" favoriteSong) ;
+console.log("I am " + age + "years old and I still like" + favoriteSong);
