@@ -274,3 +274,19 @@ console.log(array);
   
   // query the HTML for the class class-week, then use forEach to change the text content
 
+//This is for all 3 - forEach, Map, and Filter...
+
+let newData = [1, 2, 3, 4, 5, 6, 7, 8];
+function figureItOut (example) {
+  newData.push(example.newData)
+}
+newData.forEach((example2) => figureItOut(example2));
+console.log(newData);
+
+newData.forEach((curr, index) =>
+  console.log(`this is the current value ${curr} and this is the current iteration ${index} and this is the current value with 1 added to it: ${curr + 1}`)
+  );
+
+// newData.map()
+
+// newData.filter()
