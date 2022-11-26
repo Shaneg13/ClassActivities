@@ -10,7 +10,8 @@ form.addEventListener("submit", (event) => {
 
   Array.from(inputs).forEach((input) => {
     console.log(
-      `This input is named ${input.name} and has a value of ${input.value}`
+      `This input is named ${input.name} 
+      and has a value of ${input.value}`
     );
   });
 });

@@ -1212,16 +1212,39 @@ const data = [
     }
   ];
   
+
+  // {
+  //   userId: 1,
+  //   id: 1,
+  //   title: "delectus aut autem",
+  //   completed: false
+  // }
   // filter the to-dos for incomplete tasks
 
-  let tasks = [{completed: "false"}, {Completed: "true"}];
+  const incompleteTasks = data.filter (task => task.completed === false);
+  // return ${incompleteTasks});
+  console.log(incompleteTasks);
+  
+
+  //[{completed: "false"}, {Completed: "true"}];
 
   let filteredTasks = tasks.filter(function (currentTask) {
-    return currentTask.completed == "false";
+    return currentTask.data.completed == "false";
   });
 
   console.log(filteredTasks);
 
   // filter for user 6's tasks
 
+  const user6Tasks = data.filter(potato => potato.userId === 6);
+
+  console.log(user6Tasks);
+
+  //filter for user 6 tasks that are less than 24 characters long
+  const user6Titles = user6tasks.filter(tasks => tasks.title.length < 24);
+  console.log(user6Titles);
+
   // filter for tasks with a title less than 24 characters long
+
+  const smallTasks = data.filer (tasks => tasks.title.length < 24);
+  console.log(smallTasks);
